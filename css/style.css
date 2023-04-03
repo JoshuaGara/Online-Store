@@ -1,0 +1,41 @@
+h3 {
+  font-family: "alkatra";
+  letter-spacing: 3px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.judul {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 6px;
+
+  animation-name: gerakMasuk;
+  animation-duration: 3s;
+}
+
+@keyframes gerakMasuk {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+    color: #ffcc00;
+  }
+
+  80% {
+    transform: translateX(20px);
+    color: #ffcc00;
+    letter-spacing: 1px;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.card-margin {
+  margin-left: 15px;
+  margin-right: 5px !important;
+}
